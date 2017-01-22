@@ -5,7 +5,7 @@ package SumofLeftLeaves;
  */
 public class TreeNode {
 
-    private  static long sum=0;
+    private static long sum = 0;
     int val;
     TreeNode left;
     TreeNode right;
@@ -28,15 +28,34 @@ public class TreeNode {
         node3.right = node5;
         sumOfLeftLeaves(node1);
         System.out.println(sum);
+        sum = 0;
+        TreeNode node11 = new TreeNode(1);
+        TreeNode node12 = new TreeNode(2);
+        TreeNode node13 = new TreeNode(3);
+        TreeNode node14 = new TreeNode(4);
+        TreeNode node15 = new TreeNode(5);
+
+        node11.left = node12;
+        node11.right = node13;
+        node12.left = node14;
+        node12.right = node15;
+
+        sumOfLeftLeaves(node11);
+        System.out.println(sum);
 
     }
 
     private static int calc(TreeNode root) {
         if (root.left != null) {
-            sum += sumOfLeftLeaves(root.left);
+            if (root.left.left == null && root.left.right == null) {
+                sum += calc(root.left);
+
+            } else {
+                calc(root.left);
+            }
         }
         if (root.right != null) {
-            sumOfLeftLeaves(root.right);
+            calc(root.right);
         }
         return root.val;
     }
