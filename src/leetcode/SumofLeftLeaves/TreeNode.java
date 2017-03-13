@@ -6,11 +6,11 @@ package leetcode.SumofLeftLeaves;
 public class TreeNode {
 
     private static long sum = 0;
-    int val;
-    TreeNode left;
-    TreeNode right;
+    public  int val;
+    public TreeNode left;
+    public TreeNode right;
 
-    TreeNode(int x) {
+    public TreeNode(int x) {
         val = x;
     }
 
