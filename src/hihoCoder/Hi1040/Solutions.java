@@ -1,4 +1,4 @@
-package hihoCoder.Hi1039.Hi1040;
+package hihoCoder.Hi1040;
 
 /**
  * Created by luyan on 17/3/19.

@@ -1,4 +1,4 @@
-package hihoCoder.OfferWeekTest.TEST20170319;
+package hihoCoder.OfferWeekTest.TEST20170319.Solution1;
 
 import java.util.Scanner;
 
