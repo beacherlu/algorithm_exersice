@@ -1,1 +1,15 @@
-out/*
+.classpath
+.project
+.settings
+.checkstyle
+/target/
+*.iml
+.DS_Store
+.idea
+*.hi
+*.class
+*.o
+*.cpp
+*.h
+*.dylib
+*.dot
