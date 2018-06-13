@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1471319904950" />
+        <option name="name" value="default" />
+        <option name="optimizeImports" value="false" />
+        <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../..//kuaishou/kuaishou-build-tools/src/main/resources/kuaishou-java-formatter-1.4.xml" />
+        <option name="selectedJavaProfile" value="kuaishou-java-formatter-1.4" />
+      </Settings>
+    </option>
+  </component>
+</project>
